@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<title>Actualites</title>
+<meta charset="utf-8">
+<link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
+<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+<script type="text/javascript" src="js/jquery-1.6.js"></script>
+<script type="text/javascript" src="js/cufon-yui.js"></script>
+<script type="text/javascript" src="js/cufon-replace.js"></script> 
+<script type="text/javascript" src="js/Vegur_700.font.js"></script>
+<script type="text/javascript" src="js/Vegur_400.font.js"></script>
+<script type="text/javascript" src="js/Vegur_300.font.js"></script>
+<script type="text/javascript" src="js/atooltip.jquery.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<!--[if lt IE 9]>
+	<script type="text/javascript" src="js/html5.js"></script>
+	<style type="text/css">
+		.box1 figure {behavior:url(js/PIE.htc)}
+	</style>
+<![endif]-->
+<!--[if lt IE 7]>
+		<div style='clear:both;text-align:center;position:relative'>
+			<a href="http://www.microsoft.com/windows/internet-explorer/default.aspx?ocid=ie6_countdown_bannercode"><img src="http://www.theie6countdown.com/images/upgrade.jpg" border="0" alt="" /></a>
+		</div>
+<![endif]-->
+</head>
+<body id="page2">
+	<div class="body1">
+		<div class="main">
+<!-- header -->
+			<header>
+				<div class="wrapper">
+					<h1><a href="index.html" id="logo">Hope Center</a></h1>
+					<nav>
+						<ul id="top_nav">
+							<li><a href="index.html"><img src="images/top_icon1.gif" alt=""></a></li>
+							<li><a href="#"><img src="images/top_icon2.gif" alt=""></a></li>
+							<li class="end"><a href="Contact.html"><img src="images/top_icon3.gif" alt=""></a></li>
+						</ul>
+					</nav>
+					<nav>
+						<ul id="menu">
+							<li id="menu_active"><a href="index.html">ACCUEIL</a></li>
+						<li><a href="Actualite.html">ACTUALITES</a></li>
+						<li><a href="Qui-sommes-nous.html">QUI SOMMES NOUS</a></li>
+						<li><a href="Nos-actions.html">NOS ACTIONS</a></li>
+						<li><a href="AGIR-AVEC-NOUS.html">AGIR-AVEC-NOUS</a></li>
+						<li><a href="Contact.html">CONTACTEZ-NOUS</a></li>
+						</ul>
+					</nav>
+				</div>
+			</header>
+<!-- / header -->
+<!-- content -->
+			<article id="content">
+				<section>
+                    <div class="wrapper">
+                        <div class="wrapper">
+                            <h3><strong>Concours de projet SOLUTION 221</strong></h3>
+                           <video controls="controls" autoplay>
+                               <source src="images/videolt.mp4" 
+                               type="video/mp4" >
+                           </video>
+                           <div class="prez">
+                           
+                            <div class="wrapper"><span><br>POUR PARTICIPER AU CONCOURS TELECHARGER ET REMPLIR LE FICHIER DE CANDIDATURE</span></div>
+                                <a href="candidature SOLUTIONS 221-1.pptx" download>Télécharger le document de candidature</a>
+
+                           </div>
+                        </div>
+                    </div>
+                </section>
+			
+				<div class="wrapper">
+					<div class="box2">
+						<div class="wrapper">
+							<section class="col1">
+									
+							</section>
+							<section class="col1 pad_left1">
+								
+							</section>
+							<section class="col1 pad_left1">
+                               
+								
+							</section>
+						</div>
+					</div>
+				</div>
+				
+			</article>
+<!-- / content -->
+<!-- footer -->
+<section>
+   
+</section>
+
+  
+
+			<footer>
+				<div class="wrapper">
+					<a><span>NOUS SUIVRE SUR FACEBOOK</span></a>
+					<ul id="icons">
+						<li><a href="https://www.facebook.com/LT-S%C3%A9n%C3%A8gal-National-1146081742086126/?__tn__=%2Cd%2CP-R&eid=ARDJxW_7UMtVVWSWkf4GOFqrM-fq64tBYP7FIbOOVDKraEFMMFLRLdRlAi3FVPeNTmOUO6QkaOVxDOfQ" class="normaltip" title="Facebook"><img src="images/icon1.gif" alt=""></a></li>
+						
+					</ul>
+				</div>	
+				<div class="wrapper">
+					<a><span>Nos partenaires</span></a>
+					<h1><a href="#" id="partenaire1">partenaires</a></h1>
+					<h1><a href="#" id="partenaire2">partenaires</a></h1>
+					<h1><a href="#" id="partenaire3">partenaires</a></h1>
+					<h1><a href="#" id="partenaire4">partenaires</a></h1>
+					<h1><a href="#" id="partenaire5">partenaires</a></h1>
+					<h1><a href="#" id="partenaire6">partenaires</a></h1>
+				</div>
+			</footer>
+<!-- / footer -->
+		</div>
+	</div>
+<script type="text/javascript">Cufon.now();</script>
+</body>
+</html>
