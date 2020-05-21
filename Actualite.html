@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
-<title>Actualites</title>
+<title>LT SENEGAL</title>
 <meta charset="utf-8">
 <link rel="stylesheet" href="css/reset.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/layout.css" type="text/css" media="all">
@@ -12,6 +12,10 @@
 <script type="text/javascript" src="js/Vegur_700.font.js"></script>
 <script type="text/javascript" src="js/Vegur_400.font.js"></script>
 <script type="text/javascript" src="js/Vegur_300.font.js"></script>
+<script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+<script type="text/javascript" src="js/tms-0.3.js"></script>
+<script type="text/javascript" src="js/tms_presets.js"></script>
+<script type="text/javascript" src="js/backgroundPosition.js"></script>
 <script type="text/javascript" src="js/atooltip.jquery.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
 <!--[if lt IE 9]>
@@ -26,97 +30,198 @@
 		</div>
 <![endif]-->
 </head>
-<body id="page2">
-	<div class="body1">
-		<div class="main">
+<body id="page1">
+<div class="body1">
+	<div class="main">
 <!-- header -->
-			<header>
-				<div class="wrapper">
-					<h1><a href="index.html" id="logo">Hope Center</a></h1>
-					<nav>
-						<ul id="top_nav">
-							<li><a href="index.html"><img src="images/top_icon1.gif" alt=""></a></li>
-							<li><a href="#"><img src="images/top_icon2.gif" alt=""></a></li>
-							<li class="end"><a href="Contact.html"><img src="images/top_icon3.gif" alt=""></a></li>
-						</ul>
-					</nav>
-					<nav>
-						<ul id="menu">
-							<li><a href="index.html">ACCUEIL</a></li>
-						<li  id="menu_active"><a href="Actualite.html">ACTUALITES</a></li>
+		<header>
+			<div class="wrapper">
+				<h1><a href="index.html" id="logo">Home</a></h1>
+				<nav>
+					<ul id="top_nav">
+						<li><a href="index.html"><img src="images/top_icon1.gif" alt=""></a></li>
+						<li><a href="#"><img src="images/top_icon2.gif" alt=""></a></li>
+						<li class="end"><a href="Contact.html"><img src="images/top_icon3.gif" alt=""></a></li>
+					</ul>
+				</nav>
+				<nav>
+					<ul id="menu">
+						<li id="menu_active"><a href="index.html">ACCUEIL</a></li>
+						<li><a href="Actualite.html">ACTUALITES</a></li>
 						<li><a href="Qui-sommes-nous.html">QUI SOMMES NOUS</a></li>
 						<li><a href="Nos-actions.html">NOS ACTIONS</a></li>
 						<li><a href="AGIR-AVEC-NOUS.html">AGIR-AVEC-NOUS</a></li>
 						<li><a href="Contact.html">CONTACTEZ-NOUS</a></li>
-						</ul>
-					</nav>
-				</div>
-			</header>
+					</ul>
+				</nav>
+			</div>
+			<div class="slider">
+				<ul class="items">
+					<li>
+						<img src="images/img1.jpg" alt="">
+						<div class="banner">
+							<div class="wrapper"><span>Notre Mission faire de chaque</span></div>
+							<div class="wrapper"><span>jeune un acteur du changement positif</span></div>
+							
+						</div>
+					</li>
+					<li>
+						<img src="images/atelier2.jpg" alt="">
+						<div class="banner">
+							<div class="wrapper"><span>Notre vision oeuvrer</span></div>
+							<div class="wrapper"><span>ensemble pour un developpement </span></div>
+							<div class="wrapper"><span>inclusif et durable</span></div>
+						</div>
+					</li>
+					<li>
+						<img src="images/img3.jpg" alt="">
+						<div class="banner">
+							<div class="wrapper"><span>Nos valeurs</span></div>
+							<div class="wrapper"><span>Responsabilite Ethique Patriotisme</span></div>
+							<div class="wrapper"><span>Respect Solidarite Excellence</span></div>
+							
+						</div>
+					</li>
+					<li>
+						<img src="images/ltFemina2.jpg" alt="">
+						<div class="banner">
+							<div class="wrapper"><span>Renforcement de capacites des femmes</span></div>
+							<div class="wrapper"><span>creation d'opportunites </span></div>
+							<div class="wrapper"><span>pour faire briller leurs talents</span></div>
+						</div>
+					</li>
+					<li>
+						<img src="images/concours.jpg" alt="">
+						<div class="banner">
+							<div class="wrapper"><span>Concours annuel de projet</span></div>
+							
+							
+						</div>
+					</li>
+					<li>
+						<img src="images/ltFemina1.jpg" alt="">
+						<div class="banner">
+							<div class="wrapper"><span>Forum international</span></div>
+							<div class="wrapper"><span>des jeunes leaders</span></div>
+							<div class="wrapper"><span>Edition 2019</span></div>
+						</div>
+					</li>
+					<li>
+						<img src="images/equipe.png" alt="">
+						<div class="banner">
+							<div class="wrapper"><span>Forum international</span></div>
+							<div class="wrapper"><span>des jeunes leaders</span></div>
+							<div class="wrapper"><span>Edition 2019</span></div>
+						</div>
+					</li>
+					
+				</ul>
+				<ul class="pagination">
+					<li id="banner1"><a href="#">Solidarité.lt<span>Jangalma</span></a></li>
+					<li id="banner2"><a href="#">Lt femina<span> thinkers club</span></a></li>
+					<li id="banner3"><a href="#">Forum  inter national</a></li>
+				</ul>
+			</div>
+		</header>
 <!-- / header -->
 <!-- content -->
-			<article id="content">
-				<section>
-                    <div class="wrapper">
-                        <div class="wrapper">
-                            <h3><strong>Concours de projet SOLUTION 221</strong></h3>
-                           <img src="images/concourslt.jpeg">
-                           <div class="prez">
-                           
-                            <div class="wrapper"><span><br>POUR PARTICIPER AU CONCOURS TELECHARGER ET REMPLIR LE FICHIER DE CANDIDATURE</span></div>
-                                <a href="candidature SOLUTIONS 221-1.pptx" download>Télécharger le document de candidature</a>
-
-                           </div>
-                        </div>
-                    </div>
-                </section>
-			
+		<article id="content">
+			<div class="wrapper">
+				<div class="box1">
+					<div class="line1"><div class="line2 wrapper">
+						<section class="col1">
+							<h2><strong>Lt.FORMATION</strong><br><span>Metiers de l'avenir/coaching</span></h2>
+							<div class="pad_bot1"><figure><img src="images/formation.jpg" alt=""></figure></div>
+							Initiation au developpement personnel,à l'entreprenariat ,au leadership et à la prise de 
+							parole en public à plus plusieurs jeunes.
+						</section>
+						<section class="col1 pad_left1">
+							<h2 class="color2"><strong>LT.SOLIDARITE</strong><br><span>Actions dans les Ecoles/orphelinats</span></h2>
+							<div class="pad_bot1"><figure><img src="images/Solidarite.jpg" alt=""></figure></div>
+							l'organisation concentre essentiellement des activités sociales aux talibés à travers des refections de  daaras et des
+							distributions de materiels aux enfants
+						</section>
+						<section class="col1 pad_left1">
+							<h2 class="color3"><strong>LT.FEMINA</strong><br><span>Formation/Accomp. des Femmes</span></h2>
+							<div class="pad_bot1"><figure><img src="images/ltFemina3.jpg" alt=""></figure></div>
+							Dans le but de produire un impact positif dans la vie des femmes Lt Femina a vu le jour pour 
+							les permettre d'avoir les outils necessaires pour renforcer leurs leadership et leurs connaissances
+							du monde entreprenarial
+						</section>
+					</div></div>
+				</div>	
+			</div>
+			<div class="wrapper">
+				<h3></h3>
+				
+			</div>
+			<div class="wrapper">
 				<div class="wrapper">
-					<div class="box2">
-						<div class="wrapper">
-							<section class="col1">
-									
-							</section>
-							<section class="col1 pad_left1">
-								
-							</section>
-							<section class="col1 pad_left1">
-                               
-								
-							</section>
-						</div>
-					</div>
+					<h3>Notre Mission</h3>
+					<p class="quot">
+					Offrir aux jeunes les chances d’affirmer leur leadership par des actions concrètes pour créer un changement positif<img src="images/quot2.png" alt="">
+					</p>
 				</div>
 				
-			</article>
+			</div>
+		</article>
 <!-- / content -->
 <!-- footer -->
-<section>
-   
-</section>
-
-  
-
-			<footer>
-				<div class="wrapper">
-					<a><span>NOUS SUIVRE SUR FACEBOOK</span></a>
-					<ul id="icons">
-						<li><a href="https://www.facebook.com/LT-S%C3%A9n%C3%A8gal-National-1146081742086126/?__tn__=%2Cd%2CP-R&eid=ARDJxW_7UMtVVWSWkf4GOFqrM-fq64tBYP7FIbOOVDKraEFMMFLRLdRlAi3FVPeNTmOUO6QkaOVxDOfQ" class="normaltip" title="Facebook"><img src="images/icon1.gif" alt=""></a></li>
-						
-					</ul>
-				</div>	
-				<div class="wrapper">
-					<a><span>Nos partenaires</span></a>
-					<h1><a href="#" id="partenaire1">partenaires</a></h1>
-					<h1><a href="#" id="partenaire2">partenaires</a></h1>
-					<h1><a href="#" id="partenaire3">partenaires</a></h1>
-					<h1><a href="#" id="partenaire4">partenaires</a></h1>
-					<h1><a href="#" id="partenaire5">partenaires</a></h1>
-					<h1><a href="#" id="partenaire6">partenaires</a></h1>
-				</div>
-			</footer>
+		<footer>
+			<div class="wrapper">
+				<a><span>NOUS SUIVRE SUR FACEBOOK</span></a>
+				<ul id="icons">
+					<li><a href="https://www.facebook.com/LT-S%C3%A9n%C3%A8gal-National-1146081742086126/?__tn__=%2Cd%2CP-R&eid=ARDJxW_7UMtVVWSWkf4GOFqrM-fq64tBYP7FIbOOVDKraEFMMFLRLdRlAi3FVPeNTmOUO6QkaOVxDOfQ" class="normaltip" title="Facebook"><img src="images/icon1.gif" alt=""></a></li>
+				    
+				</ul>
+			</div>	
+			<div class="wrapper">
+				<a><span>Nos partenaires</span></a>
+				<h1><a href="#" id="partenaire1">partenaires</a></h1>
+				<h1><a href="#" id="partenaire2">partenaires</a></h1>
+				<h1><a href="#" id="partenaire3">partenaires</a></h1>
+				<h1><a href="#" id="partenaire4">partenaires</a></h1>
+				<h1><a href="#" id="partenaire5">partenaires</a></h1>
+				<h1><a href="#" id="partenaire6">partenaires</a></h1>
+			</div>
+			
+		</footer>
 <!-- / footer -->
-		</div>
 	</div>
+</div>
 <script type="text/javascript">Cufon.now();</script>
+<script>
+$(window).load(function(){
+	$('.slider')._TMS({
+		preset:'zabor',
+		easing:'easeOutQuad',
+		duration:800,
+		pagination:true,
+		banners:true,
+		waitBannerAnimation:false,
+		slideshow:6000,
+		bannerShow:function(banner){
+			banner
+				.css({right:'-700px'})
+				.stop()
+				.animate({right:'0'},600, 'easeOutExpo')
+		},
+		bannerHide:function(banner){
+			banner
+				.stop()
+				.animate({right:'-700'},600,'easeOutExpo')
+		}
+	})
+	$('.pagination li').hover(function(){
+		if (!$(this).hasClass('current')) {
+			$(this).find('a').stop().animate({backgroundPosition:'0 0'},600,'easeOutExpo', function(){$(this).parent().css({backgroundPosition:'-20px 0'})});
+		}
+	},function(){
+		if (!$(this).hasClass('current')) {
+			$(this).css({backgroundPosition:'0 0'}).find('a').stop().animate({backgroundPosition:'-250px 0'},600,'easeOutExpo');
+		}
+	})
+})
+</script>
 </body>
 </html>
